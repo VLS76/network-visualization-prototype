@@ -1,0 +1,33 @@
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+}
+
+#sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    height: 100vh;
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+#filters > div {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#filters .Species { border: 2px solid #e74c3c; }
+#filters .Devices { border: 2px solid #3498db; }
+#filters .Study { border: 2px solid #2ecc71; }
+#filters .Projects { border: 2px solid #f1c40f; }
+#filters .Status { border: 2px solid #9b59b6; }
+#filters .Institution { border: 2px solid #e67e22; }
+
+#graph {
+    flex-grow: 1;
+    height: 100vh;
+}
